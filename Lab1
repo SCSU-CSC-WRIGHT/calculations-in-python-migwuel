@@ -1,0 +1,10 @@
+def calculations_simple_interest(principle, rate, time):
+    return (principle * rate * time) / 100
+
+principle = int(input("Enter the principle amount: "))
+rate = int(input("Enter the rate of interest: "))
+time = int(input("Enter the time period (in years): "))
+
+calculated_interest = calculations_simple_interest(principle, rate, time)
+
+print(f"The simple interest is: " + {calculated_interest})
